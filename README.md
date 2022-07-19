@@ -9,8 +9,7 @@ Upon loading the website, the unfiltered UFO data is displayed to a table.
 
 ![Unfiltered Table](static/images/unfilteredimage.PNG)
 
-Adding a filter to one of the boxes causes the updateFilter function to run and initialize the filter into an array. The function then calls the filterTable function to apply the new filter to the data and assemble the new table.
-
+Adding a filter to one of the boxes causes the updateFilter function to run and initialize the filter into an array. The function then calls the filterTable function to apply the new filter to the data and assemble the new table. Up to four filters can be added. Here, we are filtering by state and date.
 ![Filtered Table](static/images/filteredimage.PNG)
 
 ## Summary
